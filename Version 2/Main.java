@@ -5,7 +5,9 @@ import java.io.*;
 public class Main {
     public static void main(String[] args) throws IOException {
         int opcion;
+        System.out.println("Bienvenido al sistema Gestion De Agenda y Reuniones");
         //Creacion lista de personas
+      
         List<Persona> personas = new ArrayList<>();
 
         // Creación de Personas
@@ -24,6 +26,7 @@ public class Main {
         persona2.agregarReunion(reunion2);
 
         do{
+            System.out.println("\nMenu: ");
             System.out.println("1. Agregar Persona");
             System.out.println("2. Agregar Reunion");
             System.out.println("3. Ver Reunion");
